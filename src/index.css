@@ -1,0 +1,21 @@
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+.font-clash-display {
+  font-family: 'Clash Display', sans-serif;
+}
